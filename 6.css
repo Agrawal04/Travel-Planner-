@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a2a5e;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #1a3a73;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.trip-options h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.date-select {
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #1a3a73;
+    background-color: #1a3a73;
+    color: white;
+    cursor: pointer;
+}
+
+.date-select::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+}
+
+.select-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.number-of-people {
+    margin-bottom: 20px;
+}
+
+.number-of-people label,
+.budget-range label,
+.travel-with label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#people-range {
+    width: 50%;
+}
+
+#people-count {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.budget-range {
+    margin-bottom: 20px;
+}
+
+#budget-range {
+    width: 50%;
+}
+
+#budget-label {
+    background-color: #0077cc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.travel-with {
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+.travel-option {
+    background-color: #1a3a73;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.travel-option:hover {
+    background-color: #28549c;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.button-container button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #23395d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #1a2d4f;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary Planner</title>
+    <link rel="stylesheet" href="6.css">
+    <script src="6.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.jpg" alt="Itinerary Planner Logo" class="logo">
+            <h1>Itinerary Planner</h1>
+            <nav>
+                <a href="1.html">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">About us</a>
+                <a href="#">FAQs</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="trip-options">
+            <h2>Trip Dates</h2>
+            <div class="trip-dates">
+                <input type="date" class="date-select">
+                <br>
+                <br>
+                <span class="select-text">Select date</span>
+            </div>
+            <br>
+            <br>
+            <div class="number-of-people">
+                <label>Number of Peoples</label>
+                <input type="range" id="people-range" min="1" max="10" value="2" onchange="updatePeopleCount(this.value)">
+                <span id="people-count">2 People</span>
+            </div>
+
+            <div class="budget-range">
+                <label>Budget Range (Per Person)</label>
+                <input type="range" id="budget-range" min="5" max="50" step="5" value="10" onchange="updateBudgetRange(this.value)">
+                <span id="budget-label">5-10K</span>
+            </div>
+
+            <div class="travel-with">
+                <label>Travel With?</label>
+                <div class="options">
+                    <button class="travel-option">Family</button>
+                    <button class="travel-option">Couple</button>
+                    <button class="travel-option">Friends</button>
+                    <button class="travel-option">Solo</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="button-container">
+            <button onclick="openNextPage()">Next</button>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary Planner</title>
+    <link rel="stylesheet" href="5.css">
+    <script src="5.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.jpg" alt="Itinerary Planner Logo" class="logo">
+            <h1>Itinerary Planner</h1>
+            <nav>
+                <a href="1.html">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Register</a>
+                <a href="#">Login</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="selection">
+            <h2>Choose your</h2>
+            <div class="dropdowns">
+                <div>
+                    <label for="leaving-from">Leaving from</label>
+                    <select id="leaving-from">
+                        <option value="">Select</option>
+                        <option value="bhopal">Bhopal</option>
+                        <option value="gwalior">Gwalior</option>
+                        <option value="hanuwantiya">Hanuwantiya</option>
+                        <option value="indore">Indore</option>
+                        <option value="jabalpur">Jabalpur</option>
+                        <option value="maheshwar">Maheshwar</option>
+                        <option value="mandu">Mandu</option>
+                        <option value="omkareshwar">Omkareshwar</option>
+                        <option value="shivpuri">Shivpuri</option>
+                        <option value="ujjain">Ujjain</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="travelling-to">Travelling to</label>
+                    <select id="travelling-to">
+                        <option value="">Select</option>
+                        <option value="bhopal">Bhopal</option>
+                        <option value="gwalior">Gwalior</option>
+                        <option value="hanuwantiya">Hanuwantiya</option>
+                        <option value="indore">Indore</option>
+                        <option value="jabalpur">Jabalpur</option>
+                        <option value="maheshwar">Maheshwar</option>
+                        <option value="mandu">Mandu</option>
+                        <option value="omkareshwar">Omkareshwar</option>
+                        <option value="shivpuri">Shivpuri</option>
+                        <option value="ujjain">Ujjain</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br> 
+        <section class="popular-destinations">
+            <h3>Some Popular Destinations</h3>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="gwalior.png" alt="Gwalior">
+                    <div class="destination-info">
+                        <p>MP Tourism<br>Rs 14000/- (per person)<br>Indore - Gwalior</p>
+                        <span>★★★★★</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="panchmarhi.png" alt="Panchmarhi">
+                    <div class="destination-info">
+                        <p>MP Tourism<br>Rs 11999/- (per person)<br>Indore - Panchmarhi</p>
+                        <span>★★★★★</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="ujjain.png" alt="Ujjain">
+                    <div class="destination-info">
+                        <p>MP Tourism<br>Rs 9999/- (per person)<br>Bhopal - Ujjain</p>
+                        <span>★★★★★</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="sanchi.jpg" alt="Sanchi">
+                    <div class="destination-info">
+                        <p>MP Tourism<br>Rs 19999/- (per person)<br>Bhopal - Sanchi</p>
+                        <span>★★★★★</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="button-container">
+            <button onclick="openNextPage()">Next</button>
+        </div>
+    </main>
+</body>
+</html>

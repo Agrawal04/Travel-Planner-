@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url("background1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header {
+    background-color: #23395d;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.selection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dropdowns label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.popular-destinations h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.destinations-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-info {
+    padding: 10px;
+}
+
+.destination-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.destination-info span {
+    color: #ffd700;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.button-container button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #23395d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #1a2d4f;
+}
